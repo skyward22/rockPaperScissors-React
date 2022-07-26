@@ -58,9 +58,9 @@ function ActionButton({ action = "rock", onActionSelected }) {
 
 function ShowWinner({ winner = 0 }) {
   const text = {
-    "-1": "You Win!",
-    0: "It's a Tie",
-    1: "You Lose!",
+    "-1": "You win, winner!",
+    0: "It's a tie, dangit",
+    1: "You lose, loser!",
   };
 
   return <h2>{text[winner]}</h2>;
